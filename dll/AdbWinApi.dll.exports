@@ -1,0 +1,105 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file AdbWinApi.dll
+
+File Type: DLL
+
+  Section contains the following exports for AdbWinApi.DLL
+
+    00000000 characteristics
+    4A808501 time date stamp Tue Aug 11 05:37:21 2009
+        0.00 version
+           1 ordinal base
+          79 number of functions
+          79 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00003332 ??0AdbEndpointObject@@QAE@ABV0@@Z
+          2    1 00004336 ??0AdbEndpointObject@@QAE@PAVAdbInterfaceObject@@EE@Z
+          3    2 00003419 ??0AdbIOCompletion@@QAE@ABV0@@Z
+          4    3 0000593F ??0AdbIOCompletion@@QAE@PAVAdbEndpointObject@@KPAX@Z
+          5    4 00004288 ??0AdbInterfaceObject@@QAE@ABV0@@Z
+          6    5 00005188 ??0AdbInterfaceObject@@QAE@PBG@Z
+          7    6 000031E5 ??0AdbObjectHandle@@QAE@ABV0@@Z
+          8    7 00005B55 ??0AdbObjectHandle@@QAE@W4AdbObjectType@@@Z
+          9    8 00004382 ??1AdbEndpointObject@@MAE@XZ
+         10    9 00005991 ??1AdbIOCompletion@@MAE@XZ
+         11    A 0000513F ??1AdbInterfaceObject@@MAE@XZ
+         12    B 00005B7C ??1AdbObjectHandle@@MAE@XZ
+         13    C 00003369 ??4AdbEndpointObject@@QAEAAV0@ABV0@@Z
+         14    D 0000345A ??4AdbIOCompletion@@QAEAAV0@ABV0@@Z
+         15    E 000042E8 ??4AdbInterfaceObject@@QAEAAV0@ABV0@@Z
+         16    F 00003210 ??4AdbObjectHandle@@QAEAAV0@ABV0@@Z
+         17   10 00001294 ??_7AdbEndpointObject@@6B@
+         18   11 000012CC ??_7AdbIOCompletion@@6B@
+         19   12 00001370 ??_7AdbInterfaceObject@@6B@
+         20   13 00001278 ??_7AdbObjectHandle@@6B@
+         21   14 00005B88 ?AddRef@AdbObjectHandle@@UAEJXZ
+         22   15 000043F6 ?AsyncRead@AdbEndpointObject@@UAEPAXPAXKPAK0K@Z
+         23   16 0000441A ?AsyncWrite@AdbEndpointObject@@UAEPAXPAXKPAK0K@Z
+         24   17 000064BD ?CloseHandle@AdbObjectHandle@@UAE_NXZ
+         25   18 00006649 ?CreateHandle@AdbObjectHandle@@UAEPAXXZ
+         26   19 000043BF ?GetEndpointInformation@AdbEndpointObject@@UAE_NPAU_AdbEndpointInformation@@@Z
+         27   1A 000050B3 ?GetInterfaceName@AdbInterfaceObject@@UAE_NPAXPAK_N@Z
+         28   1B 0000331F ?GetParentInterfaceHandle@AdbEndpointObject@@QBEPAXXZ
+         29   1C 000033FD ?GetParentObjectHandle@AdbIOCompletion@@QBEPAXXZ
+         30   1D 00005035 ?GetUsbConfigurationDescriptor@AdbInterfaceObject@@UAE_NPAU_USB_CONFIGURATION_DESCRIPTOR@@@Z
+         31   1E 00004FF3 ?GetUsbDeviceDescriptor@AdbInterfaceObject@@UAE_NPAU_USB_DEVICE_DESCRIPTOR@@@Z
+         32   1F 00005074 ?GetUsbInterfaceDescriptor@AdbInterfaceObject@@UAE_NPAU_USB_INTERFACE_DESCRIPTOR@@@Z
+         33   20 000059CA ?IsCompleted@AdbIOCompletion@@UAE_NXZ
+         34   21 00005BC7 ?IsObjectOfType@AdbObjectHandle@@UBE_NW4AdbObjectType@@@Z
+         35   22 000031D7 ?IsOpened@AdbObjectHandle@@QBE_NXZ
+         36   23 000049D2 ?LastReferenceReleased@AdbObjectHandle@@MAEXXZ
+         37   24 0000657D ?Lookup@AdbObjectHandle@@SGPAV1@PAX@Z
+         38   25 00005B98 ?Release@AdbObjectHandle@@UAEJXZ
+         39   26 0000443E ?SyncRead@AdbEndpointObject@@UAE_NPAXKPAKK@Z
+         40   27 0000445F ?SyncWrite@AdbEndpointObject@@UAE_NPAXKPAKK@Z
+         41   28 000032FB ?Type@AdbEndpointObject@@SG?AW4AdbObjectType@@XZ
+         42   29 00003410 ?Type@AdbIOCompletion@@SG?AW4AdbObjectType@@XZ
+         43   2A 0000328F ?Type@AdbInterfaceObject@@SG?AW4AdbObjectType@@XZ
+         44   2B 000031C5 ?adb_handle@AdbObjectHandle@@QBEPAXXZ
+         45   2C 0000330D ?endpoint_id@AdbEndpointObject@@QBEEXZ
+         46   2D 00003316 ?endpoint_index@AdbEndpointObject@@QBEEXZ
+         47   2E 00003286 ?interface_name@AdbInterfaceObject@@QBEABV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@XZ
+         48   2F 000031CE ?object_type@AdbObjectHandle@@QBE?AW4AdbObjectType@@XZ
+         49   30 000033EB ?overlapped@AdbIOCompletion@@QAEPAU_OVERLAPPED@@XZ
+         50   31 00003304 ?parent_interface@AdbEndpointObject@@QBEPAVAdbInterfaceObject@@XZ
+         51   32 000033F4 ?parent_io_object@AdbIOCompletion@@QBEPAVAdbEndpointObject@@XZ
+         52   33 00003298 ?usb_config_descriptor@AdbInterfaceObject@@QBEPBU_USB_CONFIGURATION_DESCRIPTOR@@XZ
+         53   34 000033EB ?usb_device_descriptor@AdbInterfaceObject@@QBEPBU_USB_DEVICE_DESCRIPTOR@@XZ
+         54   35 000032A1 ?usb_interface_descriptor@AdbInterfaceObject@@QBEPBU_USB_INTERFACE_DESCRIPTOR@@XZ
+         55   36 00003642 AdbCloseHandle
+         56   37 000040D2 AdbCreateInterface
+         57   38 00003580 AdbCreateInterfaceByName
+         58   39 000034E6 AdbEnumInterfaces
+         59   3A 000039BA AdbGetDefaultBulkReadEndpointInformation
+         60   3B 000039D9 AdbGetDefaultBulkWriteEndpointInformation
+         61   3C 00003978 AdbGetEndpointInformation
+         62   3D 00003A81 AdbGetEndpointInterface
+         63   3E 00003831 AdbGetInterfaceName
+         64   3F 00003C23 AdbGetOvelappedIoResult
+         65   40 00003876 AdbGetSerialNumber
+         66   41 000038FA AdbGetUsbConfigurationDescriptor
+         67   42 000038BB AdbGetUsbDeviceDescriptor
+         68   43 00003939 AdbGetUsbInterfaceDescriptor
+         69   44 00003C68 AdbHasOvelappedIoComplated
+         70   45 000037B1 AdbNextInterface
+         71   46 00003A3D AdbOpenDefaultBulkReadEndpoint
+         72   47 00003A5F AdbOpenDefaultBulkWriteEndpoint
+         73   48 000039F8 AdbOpenEndpoint
+         74   49 00003ABE AdbQueryInformationEndpoint
+         75   4A 00003AFD AdbReadEndpointAsync
+         76   4B 00003B93 AdbReadEndpointSync
+         77   4C 000037FD AdbResetInterfaceEnum
+         78   4D 00003B48 AdbWriteEndpointAsync
+         79   4E 00003BDB AdbWriteEndpointSync
+
+  Summary
+
+        3000 .data
+        2000 .reloc
+        1000 .rsrc
+       14000 .text
